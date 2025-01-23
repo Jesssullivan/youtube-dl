@@ -1,5 +1,14 @@
 [![Build Status](https://github.com/ytdl-org/youtube-dl/workflows/CI/badge.svg)](https://github.com/ytdl-org/youtube-dl/actions?query=workflow%3ACI)
 
+### To Build:
+
+```
+chmod +x ./jess_scripts/setup_venv.sh && ./jess_scripts/setup_venv.sh
+source youtubedl_venv/bin/activate
+make
+cp youtube-dl /usr/local/bin/youtube-dl
+cat youtube-dl.bash-completion >> ~/.bashrc
+```
 
 youtube-dl - download videos from youtube.com or other video platforms
 
